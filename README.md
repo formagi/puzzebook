@@ -11,6 +11,7 @@ Reunir scripts com soluções para problemas conhecidos, com o intuito de exerci
 - [Cálculo de raíz quadrada pelo "Método de Júlia"](./calculo-raiz-quadrada/README.md)
 - [Crivo de Erastótenes](./crivo-de-erastotenes/README.md)
 - [Conjectura de Collatz](./conjectura-de-collatz/README.md)
+- [Funções de agregação de métricas](./agregacao-de-metricas/README.md)
 
 ## Motivação
 
