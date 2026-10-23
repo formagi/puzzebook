@@ -4,6 +4,35 @@ Exercício didático sobre as principais funções usadas para agregar métricas
 
 O script [`script-agregacao.py`](./script-agregacao.py) implementa uma função Python para cada agregação e permite escolher a função pela linha de comando. Cada execução mostra o conceito, o cálculo passo a passo e a interpretação do resultado.
 
+## Índice
+
+- [Objetivo](#objetivo)
+- [Conceitos fundamentais](#conceitos-fundamentais)
+  - [Amostra, série e janela](#amostra-série-e-janela)
+  - [Gauge e counter](#gauge-e-counter)
+  - [Agregação instantânea e temporal](#agregação-instantânea-e-temporal)
+  - [Tendência central, dispersão e cauda](#tendência-central-dispersão-e-cauda)
+  - [Percentis](#percentis)
+  - [Variância e desvio padrão](#variância-e-desvio-padrão)
+  - [Cardinalidade](#cardinalidade)
+- [Catálogo de funções](#catálogo-de-funções)
+  - [Funções básicas](#funções-básicas)
+  - [Funções temporais](#funções-temporais)
+  - [Ranking e detecção](#ranking-e-detecção)
+- [Exemplos comentados](#exemplos-comentados)
+  - [Média, mediana e percentil](#média-mediana-e-percentil)
+  - [Variância e desvio padrão](#variância-e-desvio-padrão-1)
+  - [Rate, increase e resets](#rate-increase-e-resets)
+  - [Tendência e previsão](#tendência-e-previsão)
+  - [Ranking e ausência](#ranking-e-ausência)
+- [Como usar](#como-usar)
+  - [Parâmetros](#parâmetros)
+  - [Formatos de entrada](#formatos-de-entrada)
+  - [Validações](#validações)
+- [Armadilhas comuns em monitoramento](#armadilhas-comuns-em-monitoramento)
+- [Ferramentas de IA utilizadas](#ferramentas-de-ia-utilizadas)
+- [Referências](#referências)
+
 ## Objetivo
 
 Em monitoramento, raramente olhamos para uma única amostra isolada. O que interessa é responder perguntas como:
